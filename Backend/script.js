@@ -12,6 +12,19 @@
 // console.log(Data.Sum(a,b));
 
 
-const Fruits = require("./Fruits")
+// Fruits
 
-console.log(Fruits);
+// const Fruits = require("./Fruits")
+// console.log(Fruits);
+
+
+// Import Way
+
+import { Sum , Sub } from "./Math.js";
+import { generate, count } from "random-words";
+
+console.log(generate());
+
+console.log(Sum(10,20));
+console.log(Sub(10,20));
+
