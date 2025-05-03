@@ -11,6 +11,8 @@ let obj = {
     study : "BCA"
 }
 console.log(obj);
+console.log(obj);
+
 
 let OWNapi = JSON.stringify(obj);
 console.log(OWNapi);
